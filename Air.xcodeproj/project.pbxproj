@@ -12,6 +12,10 @@
 		4A621CDD2285E4F8007C784A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A621CDB2285E4F8007C784A /* Main.storyboard */; };
 		4A621CDF2285E4FA007C784A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A621CDE2285E4FA007C784A /* Assets.xcassets */; };
 		4A621CE22285E4FA007C784A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A621CE02285E4FA007C784A /* LaunchScreen.storyboard */; };
+		4A621D272286AE9C007C784A /* AirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A621D262286AE9C007C784A /* AirViewController.swift */; };
+		4A621D292286AEA7007C784A /* AirModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A621D282286AEA7007C784A /* AirModel.swift */; };
+		4A621D2B2286AEAF007C784A /* AirView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A621D2A2286AEAF007C784A /* AirView.swift */; };
+		4A621D312286D3D6007C784A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A621D302286D3D6007C784A /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		4A621CDE2285E4FA007C784A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A621CE12285E4FA007C784A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A621CE32285E4FA007C784A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A621D262286AE9C007C784A /* AirViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirViewController.swift; sourceTree = "<group>"; };
+		4A621D282286AEA7007C784A /* AirModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirModel.swift; sourceTree = "<group>"; };
+		4A621D2A2286AEAF007C784A /* AirView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirView.swift; sourceTree = "<group>"; };
+		4A621D302286D3D6007C784A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,26 @@
 		4A621CD62285E4F8007C784A /* Air */ = {
 			isa = PBXGroup;
 			children = (
+				4A621D252286AE78007C784A /* AirHockey */,
 				4A621CD72285E4F8007C784A /* AppDelegate.swift */,
 				4A621CD92285E4F8007C784A /* ViewController.swift */,
 				4A621CDB2285E4F8007C784A /* Main.storyboard */,
 				4A621CDE2285E4FA007C784A /* Assets.xcassets */,
 				4A621CE02285E4FA007C784A /* LaunchScreen.storyboard */,
 				4A621CE32285E4FA007C784A /* Info.plist */,
+				4A621D302286D3D6007C784A /* Extensions.swift */,
 			);
 			path = Air;
+			sourceTree = "<group>";
+		};
+		4A621D252286AE78007C784A /* AirHockey */ = {
+			isa = PBXGroup;
+			children = (
+				4A621D262286AE9C007C784A /* AirViewController.swift */,
+				4A621D282286AEA7007C784A /* AirModel.swift */,
+				4A621D2A2286AEAF007C784A /* AirView.swift */,
+			);
+			path = AirHockey;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A621D2B2286AEAF007C784A /* AirView.swift in Sources */,
 				4A621CDA2285E4F8007C784A /* ViewController.swift in Sources */,
+				4A621D312286D3D6007C784A /* Extensions.swift in Sources */,
 				4A621CD82285E4F8007C784A /* AppDelegate.swift in Sources */,
+				4A621D292286AEA7007C784A /* AirModel.swift in Sources */,
+				4A621D272286AE9C007C784A /* AirViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
